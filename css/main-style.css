@@ -1,0 +1,136 @@
+#nav-home {
+    color: #5FB4A2;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+#hero {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#hero img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#hero:hover #pop-intro {
+    left: 0;
+}
+
+#pop-intro {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: -650px;
+    bottom: 0;
+    z-index: 2;
+    height: 59.5%;
+    width: 40%;
+    overflow: hidden;
+    transition: left 0.4s ease-out;
+
+    background-color: white;
+}
+
+#pop-intro h1 {
+    width: 390px;
+    margin-top: 56px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    font-style: normal;
+    letter-spacing: -0.446429px;
+    line-height: 50px;
+
+    color: #33323D;
+}
+
+.scroll-button {
+    display: flex;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border-style: none;
+    justify-content: space-between;
+
+    background-color: #203A4C;
+}
+
+.scroll-button .square {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background-color: rgb(29, 52, 69);
+}
+
+.scroll-button #sobre-button {
+    border-style: none;
+    padding: 17px 30px;
+
+    color: white;
+}
+
+.scroll-button:hover {
+    background-color: #5FB4A2;
+}
+
+.scroll-button:hover .square {
+    background-color: rgb(86, 162, 146)
+}
+
+.scroll-button:hover .icon {
+    filter: invert(0%) sepia(93%) saturate(100%) hue-rotate(235deg) brightness(137%) contrast(107%);
+}
+
+#sobre-button:hover {
+    background-color: #5FB4A2;
+}
+
+#alex-anchor {
+    position: absolute;
+    top: 42.5%;
+}
+
+#alex {
+    margin-bottom: 0;
+}
+
+#alex img {
+    max-width: 49%;
+    object-fit: cover;
+}
+
+#sobre {
+    display: flex;
+
+    flex-direction: column;
+    width: 39%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    justify-content: space-around;
+    padding: 50px 0;
+
+    border-color: #EAEAEB;
+}
+
+#sobre h2 {
+    margin-bottom: 28px;
+}
+
+#sobre a {
+    align-self: center;
+    margin-top: 40px;
+}
